@@ -1,0 +1,108 @@
+# Reading pref.tcl
+# do Lab7_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 7\ (Program\ Counter\ and\ Instruction\ Decoder) {C:/intelFPGA_lite/Lab 7 (Program Counter and Instruction Decoder)/Lab7.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:40:32 on May 01,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 7 (Program Counter and Instruction Decoder)" C:/intelFPGA_lite/Lab 7 (Program Counter and Instruction Decoder)/Lab7.v 
+# -- Compiling module Lab7
+# 
+# Top level modules:
+# 	Lab7
+# End time: 13:40:32 on May 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 7\ (Program\ Counter\ and\ Instruction\ Decoder) {C:/intelFPGA_lite/Lab 7 (Program Counter and Instruction Decoder)/ProgramCounter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:40:32 on May 01,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 7 (Program Counter and Instruction Decoder)" C:/intelFPGA_lite/Lab 7 (Program Counter and Instruction Decoder)/ProgramCounter.v 
+# -- Compiling module ProgramCounter
+# 
+# Top level modules:
+# 	ProgramCounter
+# End time: 13:40:32 on May 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 7\ (Program\ Counter\ and\ Instruction\ Decoder) {C:/intelFPGA_lite/Lab 7 (Program Counter and Instruction Decoder)/InstructionDecoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:40:32 on May 01,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 7 (Program Counter and Instruction Decoder)" C:/intelFPGA_lite/Lab 7 (Program Counter and Instruction Decoder)/InstructionDecoder.v 
+# -- Compiling module InstructionDecoder
+# 
+# Top level modules:
+# 	InstructionDecoder
+# End time: 13:40:32 on May 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 7\ (Program\ Counter\ and\ Instruction\ Decoder) {C:/intelFPGA_lite/Lab 7 (Program Counter and Instruction Decoder)/ALU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:40:32 on May 01,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 7 (Program Counter and Instruction Decoder)" C:/intelFPGA_lite/Lab 7 (Program Counter and Instruction Decoder)/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 13:40:32 on May 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 7\ (Program\ Counter\ and\ Instruction\ Decoder) {C:/intelFPGA_lite/Lab 7 (Program Counter and Instruction Decoder)/Mux.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:40:32 on May 01,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 7 (Program Counter and Instruction Decoder)" C:/intelFPGA_lite/Lab 7 (Program Counter and Instruction Decoder)/Mux.v 
+# -- Compiling module Mux
+# 
+# Top level modules:
+# 	Mux
+# End time: 13:40:32 on May 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 7\ (Program\ Counter\ and\ Instruction\ Decoder) {C:/intelFPGA_lite/Lab 7 (Program Counter and Instruction Decoder)/ROM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:40:33 on May 01,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 7 (Program Counter and Instruction Decoder)" C:/intelFPGA_lite/Lab 7 (Program Counter and Instruction Decoder)/ROM.v 
+# -- Compiling module ROM
+# 
+# Top level modules:
+# 	ROM
+# End time: 13:40:33 on May 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 7\ (Program\ Counter\ and\ Instruction\ Decoder) {C:/intelFPGA_lite/Lab 7 (Program Counter and Instruction Decoder)/Lab7_testbench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:40:33 on May 01,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 7 (Program Counter and Instruction Decoder)" C:/intelFPGA_lite/Lab 7 (Program Counter and Instruction Decoder)/Lab7_testbench.v 
+# -- Compiling module Lab7_testbench
+# 
+# Top level modules:
+# 	Lab7_testbench
+# End time: 13:40:33 on May 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  Lab7_testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" Lab7_testbench 
+# Start time: 13:40:33 on May 01,2022
+# Loading work.Lab7_testbench
+# Loading work.Lab7
+# Loading work.ProgramCounter
+# Loading work.ROM
+# Loading work.InstructionDecoder
+# Loading work.ALU
+# Loading work.Mux
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'address'. The port definition is at: C:/intelFPGA_lite/Lab 7 (Program Counter and Instruction Decoder)/ROM.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7_testbench/DUT/instructionMemory File: C:/intelFPGA_lite/Lab 7 (Program Counter and Instruction Decoder)/Lab7.v Line: 21
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : C:/intelFPGA_lite/Lab 7 (Program Counter and Instruction Decoder)/Lab7_testbench.v(30)
+#    Time: 55 ps  Iteration: 0  Instance: /Lab7_testbench
+# Break in Module Lab7_testbench at C:/intelFPGA_lite/Lab 7 (Program Counter and Instruction Decoder)/Lab7_testbench.v line 30
+# End time: 13:41:31 on May 01,2022, Elapsed time: 0:00:58
+# Errors: 0, Warnings: 1
